@@ -42,6 +42,10 @@ yarn-error.log*
 .env.local
 .env.*.local
 
+# Service account keys (NEVER commit these!)
+*.json
+!package.json
+
 # Reference folder (not needed in production)
 reference/
 
